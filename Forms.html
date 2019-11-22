@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap Form</title>
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		.telefono-contacto{
+			color: #c471ed;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6">
+				<form class="mt-5 shadow p-5 rounded">
+					<h5 class="text-center mb-4"><strong>Contact Us</strong></h5>
+
+					<input type="text" placeholder="Full Name" class="form-control shadow-sm rounded-lg mb-4">
+
+					<input type="email" class="form-control rounded-lg mb-4 shadow-sm" placeholder="Email">
+
+					<textarea class="form-control rounded-lg mb-4 shadow-sm" placeholder="Your Message" id="mensajeRequerido" ></textarea>
+
+					<div class="d-flex justify-content-center mb-4" >
+						<button class="btn btn-block btn-success rounded">
+						Send Email
+					</button>
+					</div>
+
+					<h6 class="text-center">
+						<small>
+						Contact us 24/7 Call Center: <span class="telefono-contacto">+0051 933 932 280</span>
+					</small>
+					</h6>
+					
+					
+					
+				</form>
+			</div>
+
+			<div class="col-md-6">
+				<div class="container">
+					<div class="row mt-5 shadow p-5 rounded">
+						<div class="col-4 d-flex align-items-center">
+							<img src="imagenes/rocket.png" class="img-fluid">
+						</div>
+
+						<div class="col-8">
+							<form>
+								<h5 class="text-center mb-4"><strong>Get in touch</strong></h5>
+								<input type="text" class="form-control rounded-pill mb-4 shadow-sm" placeholder="Name">
+
+								<input type="email" class="form-control rounded-pill mb-4 shadow-sm" placeholder="Email">
+
+								<input type="text" class="form-control rounded-pill mb-4 shadow-sm" placeholder="Subject">
+ 
+								<textarea class="form-control rounded-lg mb-4 shadow-sm" placeholder="Your Message"></textarea>
+
+								<button class="btn btn-warning btn-block rounded-pill">
+									Send Email
+								</button>
+							</form>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+
+
+
+			<!--Fin Row-->	
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<form class="mt-5 shadow p-5 rounded bg-warning">
+					<h5 class="text-center mb-4 text-white"><strong>CONTACT US</strong></h5>
+
+					<!--Check Box-->
+					<div class="custom-control custom-radio">
+						<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  						<label class="custom-control-label text-white" for="customRadio1">Say Hi</label>
+  					</div>
+
+  					<div class="custom-control custom-radio">
+  						<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" >
+						<label class="custom-control-label text-white mb-4" for="customRadio2">
+							Get a 30% disscount
+						</label>
+  					</div>
+					
+					<input type="text" class="form-control bg-light mb-4" placeholder="Name">	
+					
+					<input type="email" class="form-control bg-light mb-4" placeholder="Your Email">
+
+					<textarea class="form-control bg-light mb-4" placeholder="Your Message"></textarea>
+					
+					<button class="btn btn-light btn rounded-sm">
+						Submit
+					</button>
+				</form>
+
+
+			</div>
+			<div class="col-md-6">
+				<form class="mt-5 shadow p-4 rounded">
+					<h5 class="text-center mb-4"><strong>Say Hello!</strong></h5>
+
+					<label for="namelFormulario">
+						<small>Your Name</small>
+					</label>
+					<input type="text" class="form-control form-control-sm mb-3 shadow-sm" placeholder="Enter your name" id="nameFormulario">
+
+					<label for="emailFormulario">
+						<small>Email</small>
+					</label>
+					<input type="email" class="form-control form-control-sm mb-3 shadow-sm" id="emailFormulario" placeholder="Enter your email address">
+
+					<label for="services">
+						<small>Needed Services</small>
+					</label>
+					<select class="form-control form-control-sm mb-3 shadow-sm">
+						<option>Front End</option>
+						<option>Web Design</option>
+						<option>SEO</option>
+					</select>
+
+					<label for="budget">
+						<small>Budget</small>
+					</label>
+					<select class="form-control form-control-sm mb-4 shadow-sm">
+						<option>Select Budget</option>
+						<option>Basic</option>
+						<option>Pro</option>
+					</select>
+
+					<button class="btn btn-primary btn-block">
+						Submit
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<form class="mt-5 shadow p-4 rounded">
+			<h5 class="text-center mb-4"><strong>Contact Us</strong></h5>
+
+			<div class="container">
+				<label for="firstname">Your name</label>
+				<div class="form-row">
+					
+					<div class="col-6">
+						
+						<input type="text" class="form-control shadow-sm" placeholder="First Name" id="firstname">
+					</div>
+
+					<div class="col-6">
+						<input type="text" class="form-control mb-4 shadow-sm" placeholder="Last Name">
+					</div>
+				</div>
+				<label for="email-adress">
+					Email Adress
+				</label>
+				<input type="email" class="form-control mb-4 shadow-sm" placeholder="example@email.com" id="email-adress">
+
+				<label for="number">
+					Phone number
+				</label>
+				<input type="text" class=" shadow-sm form-control mb-4" id="number" placeholder="Eg. +1 800 0000">
+
+				<label for="message">
+					Message
+				</label>
+				<textarea class="form-control mb-4 shadow-sm" placeholder="Please enter your comments"></textarea>
+
+				<button class="btn btn-danger rounded shadow">
+					Submit
+				</button>
+			</div>
+		</form>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--Container fin--->
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--Adicionales Bootstrap--->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
